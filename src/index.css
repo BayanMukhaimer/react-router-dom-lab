@@ -45,7 +45,15 @@ li {
 
 .mail-box {
   border: 2px solid white;
-  padding: 20px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mailbox-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 form {

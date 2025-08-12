@@ -2,8 +2,10 @@ import { Link } from "react-router";
 
 const MailboxList = ({ mailboxes }) => {
   return (
+    <>
+  <h1>Mailbox List</h1>
     <div className="mailbox-list">
-      <h1>Mailbox List</h1>
+      
       {mailboxes.map((mailbox) => (
         <Link
           key={mailbox._id}
@@ -14,6 +16,7 @@ const MailboxList = ({ mailboxes }) => {
         </Link>
       ))}
     </div>
+    </>
   );
 }
 
